@@ -1,0 +1,50 @@
+[{
+    "broader outcomes": ["broader outcomes"]
+  },
+  {
+    "outreach": ["educational programs", "public education",
+      "capacity building", "education training", "training programmes",
+      "coaching", "community engagement", "education programs", "peer support",
+      "mentoring", "professional development", "educational activities",
+      "capacity-building", "health education", "continuing education",
+      "trainings", "vocational training", "advocacy", "training education"
+    ]
+  },
+  {
+    "diversity": ["discrimination", "diversity"]
+  },
+  {
+    "education": ["education", "educational", "schooling", "education training",
+      "literacy", "education programs", "health promotion", "teaching",
+      "higher education", "professional development", "professional training",
+      "public education", "educational programs", "training education",
+      "vocational training", "curriculum"
+    ]
+  },
+  {
+    "educator": ["educator", "mentor", "administrator", "counsellor",
+      "collaborator", "scientist", "advisor",
+      "professor", "graduate student", "educators", "passionate", "mentorship",
+      "librarian", "counselor"
+    ]
+  },
+  {
+    "teacher": ["teacher", "student", "teachers", "instructor", "mentor",
+      "classroom", "learner", "students", "supervisor", "therapist",
+      "teaching", "researcher", "counselor", "peer", "career", "trainee",
+      "students", "instructors", "faculty"]
+  },
+  {
+    "public": ["public", "citizens", "politicians", "public officials",
+      "government"]
+  },
+  {
+    "society": ["society", "societal", "social", "citizens"]
+  },
+  {
+    "underrepresented": ["underrepresented", "under-represented", "biased"]
+  },
+  {
+    "minority": ["minority", "marginalized", "ethnic"]
+  }
+]
