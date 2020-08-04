@@ -10,6 +10,7 @@ from py2neo import Graph
 from json import load
 import copy
 from fuzzywuzzy import fuzz
+import csv
 
 
 def unlist(x):
@@ -162,7 +163,7 @@ for i in flatList:
                        ratiotwo, j['name'].lower(),
                        tester['name'].lower()])
             if ratio > 90:
-                [j['award']].append(tester['award'])
+                j['award'].append(tester['award'])
                 j['award'] = unlist(j['award'])
                 match = 1
                 print('.', end='')
@@ -170,3 +171,13 @@ for i in flatList:
     if match == 0:
         groupTitle.append(tester)
         print(len(groupTitle))
+
+for i in groupTitle:
+    i['count'] = len(i['term'])
+    i['awardCount'] = len(i['award'])
+
+with open('./data/output/awards.csv', 'w', newline='') as f:
+    writer = csv.DictWriter(f, fieldnames=list(groupTitle[0]))
+    writer.writeheader()
+    for d in groupTitle:
+        writer.writerow(d)
