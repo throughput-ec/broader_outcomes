@@ -3,7 +3,7 @@
 
 # Broader Impacts Grant Search
 
-Using the NSF Grants stored in the Throughput Database, search for grants with particular keywords, link grants using a matching scheme (title match and year match).  Return linked grants, associated keywords and contacts.
+Using the NSF Grants stored in the Throughput Database, search for grants with particular keywords, link grants using a matching scheme (title match and year match).  Return linked grants, associated keywords and contacts.  This work is supported by the [National Sciences Foundation's EarthCube](http://earthcube.org) program.
 
 ## Contributors
 
@@ -23,11 +23,11 @@ A description of the files and directory structure in the repository.
 
 ### Workflow Overview
 
-Th project uses X core information, manages it and passes out some stuff.
+Th project uses grant information from the [National Sciences Foundation](https://www.nsf.gov/awardsearch/download.jsp) that has been processed into the knowledge graph of the Throughput Database.  Using data from xDD trigrams for key terms related to broader outcomes, the workflow attempts to discover grants that may have a significant relation to broader outcomes work.  Multi-institution grants are collected using approximate text matching, and results are then packaged with award IDs, matching terms, award descriptions and contact information for related PIs.
 
 ### System Requirements
 
-This project is being developed using Python (v3.8.2) on a system running Linux Mint 20 (kernel 5.7.0-050700-generic). Python requirements are stored in the `requirements.txt` file, generated using `pipreqs .`.
+This project is being developed using Python (v3.8.2) on a system running Linux Mint 20 (kernel 5.7.0-050700-generic). Python requirements are stored in the `requirements.txt` file, generated using the `pipreqs .` command.
 
 ### Data Requirements
 
